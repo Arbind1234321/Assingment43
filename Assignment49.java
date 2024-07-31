@@ -1,7 +1,9 @@
 package Assignment43;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Vector;
 
 //Write a -all method programm for ArrayList,LinkedList,Vector,Priority Queue,HashSet,treeSet,LinkedHashSet and
@@ -35,6 +37,22 @@ public class Assignment49 {
 	v.add(0);
 	System.out.println(v);
 	System.out.println(v.capacity());
+	
+	PriorityQueue q=new PriorityQueue();
+	q.add("1");
+	q.add("Arbind");
+	q.add("kumar");
+	//q.add(null);
+	System.out.println(q);
+	q.add("arbind");
+	
+	HashSet hs=new HashSet<>();
+	hs.add(1);
+	hs.add(null);
+	hs.add("arbind");
+	System.out.println(hs);
+	
+	
 
 	}
 
