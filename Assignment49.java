@@ -2,8 +2,10 @@ package Assignment43;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
+import java.util.TreeSet;
 import java.util.Vector;
 
 //Write a -all method programm for ArrayList,LinkedList,Vector,Priority Queue,HashSet,treeSet,LinkedHashSet and
@@ -52,6 +54,19 @@ public class Assignment49 {
 	hs.add("arbind");
 	System.out.println(hs);
 	
+	TreeSet ts=new TreeSet<>();
+	ts.add(1);
+	ts.add(-20);
+	ts.add(0);
+	ts.add(1);
+	System.out.println(ts);
+	LinkedHashSet ls=new LinkedHashSet<>();
+    ls.add(1);
+    ls.add(2);
+    ls.add("Arbind");
+    ls.add("kumar");
+    ls.add(null);
+    System.out.println(ls);
 	
 
 	}
